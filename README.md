@@ -1,28 +1,122 @@
-# Peminjaman Ruang (Android)
+# RUANG SEHATI
 
-## Catatan perubahan terbaru
+## Sistem Peminjaman Ruang Kelas Berbasis Android
 
-| Area | Perubahan |
-|------|-----------|
-| **Logo** | `res/drawable/logo.png` diganti menjadi versi **bulat** dengan area luar **transparan** (sumber sebelumnya `logo.jpeg` dihapus agar tidak bentrok nama resource). Tetap dipakai sebagai `@drawable/logo` di `ImageView`. |
-| **Biometrik** | Seluruh fitur **BiometricPrompt / fingerprint / face unlock** dan penyimpanan kredensial terenkripsi untuk login cepat **dihapus**. Dependency `androidx.biometric` dan `security-crypto` dilepas; kelas `SavedLoginStore` dihapus. |
-| **Dashboard** | Layout **dashboard user & admin** memakai tema **biru gelap** (`#0D1B2A` dan gradasi terkait) dengan aksen **emas** (`#FFD700`). Kartu, navigasi bawah, tombol, dan teks disesuaikan kontrasnya. |
-| **Tema global** | **`Theme.PeminjamanRuang`** kini memakai **Material 3 Dark** dengan token dashboard (`colorBackground`, `colorSurface`, `colorPrimary` / `colorSecondary` = emas, teks lewat `textColorPrimary` / `textColorSecondary`). Semua **`activity_*.xml`** dan **`item_*.xml`** memakai `?android:attr/colorBackground`, teks dari atribut tema, kartu/tombol dari **`styles.xml`** (`Widget.PeminjamanRuang.Card`, `Button.Primary`, `Button.Ghost`, dll.). Logo di layar utama dipamerkan dengan **`bg_dashboard_logo_circle`** + **`centerCrop`** agar konsisten dengan dashboard. |
+RUANG SEHATI merupakan aplikasi peminjaman ruang kelas berbasis Android yang dikembangkan untuk membantu proses pengelolaan dan peminjaman ruang kelas secara digital. Sistem ini memungkinkan pengguna melakukan pengajuan peminjaman ruang, melihat status peminjaman, serta mengakses riwayat peminjaman. Admin dapat mengelola data gedung, ruang kelas, dan melakukan validasi terhadap pengajuan peminjaman.
 
-**Commit message disarankan:**
+---
 
-```
-feat(theme): align entire app with dashboard dark blue + gold
+## Latar Belakang
 
-- Theme.Material3.Dark: dashboard palette + reusable card/button/text styles
-- All activity/item layouts use theme color attrs; shared chip/input/hero drawables
-- Logo framing consistent (circular PNG + ring where shown)
-```
+Proses peminjaman ruang kelas yang masih dilakukan secara manual sering menimbulkan berbagai kendala seperti bentroknya jadwal penggunaan ruang, kesalahan pencatatan, serta sulitnya melakukan monitoring data peminjaman. Oleh karena itu dikembangkan aplikasi **RUANG SEHATI** sebagai solusi digital yang lebih efektif dan terstruktur.
 
-## Build
+---
 
-Buka proyek di Android Studio dan jalankan **Build > Make Project**, atau:
+## Fitur Utama
+
+### Admin
+- Login Admin
+- Kelola Data Gedung
+- Kelola Data Ruang Kelas
+- Kelola Data Pengguna
+- Melihat Data Peminjaman
+- Menyetujui atau Menolak Peminjaman
+- Mengelola Status Peminjaman
+
+### User
+- Login dan Registrasi
+- Melihat Daftar Gedung
+- Melihat Daftar Ruang Kelas
+- Mengajukan Peminjaman Ruang
+- Melihat Status Peminjaman
+- Melihat Riwayat Peminjaman
+
+---
+
+## Teknologi yang Digunakan
+
+### Frontend
+- Android Studio
+- Java
+- XML Layout
+- RecyclerView
+- Material Design
+
+### Backend
+- PHP
+- MySQL
+- REST API
+
+### Library
+- Retrofit
+- Gson
+- Firebase Cloud Messaging (FCM)
+
+---
+
+## Struktur Database
+
+Tabel utama yang digunakan:
+
+- users
+- gedung
+- ruang
+- peminjaman
+
+---
+
+## Cara Menjalankan Proyek
+
+### 1. Clone Repository
 
 ```bash
-./gradlew :app:assembleDebug
+git clone https://github.com/elvandojhonny/ruangsehati.git
 ```
+
+### 2. Buka Project
+
+Buka project menggunakan Android Studio.
+
+### 3. Konfigurasi Database
+
+Import database MySQL ke XAMPP atau server lokal yang digunakan.
+
+### 4. Konfigurasi API
+
+Sesuaikan URL API pada aplikasi Android dengan alamat server yang digunakan.
+
+### 5. Jalankan Aplikasi
+
+Hubungkan perangkat Android atau emulator kemudian jalankan aplikasi.
+
+---
+
+## Struktur Proyek
+
+```text
+ruangsehati/
+├── app/
+├── gradle/
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+├── gradlew
+├── gradlew.bat
+└── README.md
+```
+
+---
+
+## Tim Pengembang
+
+**Proyek Akhir Semester**
+
+Program Studi Informatika
+
+Universitas Muhammadiyah Kalimantan Timur (UMKT)
+
+---
+
+## Lisensi
+
+Repository ini dibuat untuk kebutuhan pembelajaran dan Proyek Akhir Semester.
