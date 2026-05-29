@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name" translatable="false">Ruang Sehat</string>
+
+    <!-- Common -->
+    <string name="back">Kembali</string>
+    <string name="back_chevron" translatable="false">&lt;</string>
+
+    <!-- Login -->
+    <string name="login_cta">Masuk</string>
+    <string name="login_welcome">Selamat datang</string>
+    <string name="login_subtitle">Masuk untuk mengelola ruangan kampus</string>
+    <string name="forgot_password">Lupa kata sandi?</string>
+    <string name="validation_empty">Harap isi username dan kata sandi</string>
+    <string name="validation_password_short">Kata sandi minimal 4 karakter</string>
+    <string name="forgot_password_title">Reset kata sandi</string>
+    <string name="forgot_password_message">Untuk keamanan, hubungi administrator sistem atau akademik kampus Anda untuk mengatur ulang kata sandi.</string>
+    <string name="forgot_password_ok">Mengerti</string>
+    <string name="forgot_password_contact">Hubungi admin</string>
+    <string name="admin_support_email" translatable="false">admin@kampus.ac.id</string>
+    <string name="app_logo_cd">Logo aplikasi</string>
+
+    <!-- Dashboard User -->
+    <string name="dashboard_panel_mahasiswa">Panel Mahasiswa</string>
+    <string name="dashboard_user_greeting">Halo</string>
+    <string name="dashboard_user_subtitle">Semoga harimu menyenangkan</string>
+    <string name="dashboard_stats_total">Total</string>
+    <string name="dashboard_stats_active">Aktif</string>
+    <string name="dashboard_menu_title">Menu Utama</string>
+    <string name="dashboard_menu_building">Gedung</string>
+    <string name="dashboard_menu_history">Riwayat</string>
+    <string name="dashboard_global_section_title">Kelas dipinjam &amp; digunakan</string>
+    <string name="dashboard_global_section_hint">Data ini sama untuk semua pengguna</string>
+    <string name="dashboard_global_empty">Belum ada data kelas yang dipinjam atau digunakan</string>
+    <string name="dashboard_global_col_room">Nama Kelas</string>
+    <string name="dashboard_global_col_building">Gedung</string>
+    <string name="dashboard_global_col_date">Tanggal</string>
+    <string name="dashboard_global_col_time">Jam</string>
+    <string name="dashboard_global_col_status">Status</string>
+    <string name="dashboard_global_col_borrower">Peminjam</string>
+    <string name="dashboard_global_status_dipinjam">Dipinjam</string>
+    <string name="dashboard_global_status_digunakan">Digunakan</string>
+    <string name="dashboard_global_status_selesai">Selesai</string>
+
+    <!-- Bottom nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_class">Kelas</string>
+    <string name="nav_history">Riwayat</string>
+    <string name="nav_profile">Profil</string>
+</resources>

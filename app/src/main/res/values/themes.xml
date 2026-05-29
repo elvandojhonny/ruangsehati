@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Global dashboard-inspired premium theme -->
+    <style name="Theme.PeminjamanRuang" parent="Theme.Material3.Dark.NoActionBar">
+
+        <!-- Background / surface tokens -->
+        <item name="android:colorBackground">@color/dashboard_bg</item>
+        <item name="android:windowBackground">@drawable/bg_dashboard_root</item>
+
+        <item name="colorSurface">@color/dashboard_surface</item>
+        <item name="colorSurfaceVariant">@color/dashboard_surface_elevated</item>
+        <item name="colorOnSurface">@color/dashboard_text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/dashboard_text_secondary</item>
+
+        <!-- Primary / secondary accents (gold) -->
+        <item name="colorPrimary">@color/dashboard_gold</item>
+        <item name="colorOnPrimary">@color/dashboard_bg</item>
+        <item name="colorSecondary">@color/dashboard_gold</item>
+        <item name="colorOnSecondary">@color/dashboard_bg</item>
+
+        <item name="android:textColorPrimary">@color/dashboard_text_primary</item>
+        <item name="android:textColorSecondary">@color/dashboard_text_secondary</item>
+
+        <!-- System bars -->
+        <item name="android:statusBarColor">@color/dashboard_bg_deep</item>
+        <item name="android:navigationBarColor">@color/dashboard_bottom_bar</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="materialButtonStyle">@style/Widget.PeminjamanRuang.Button.Primary</item>
+        <item name="materialCardViewStyle">@style/Widget.PeminjamanRuang.Card</item>
+    </style>
+
+</resources>

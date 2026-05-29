@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="760dp"
+    android:layout_height="wrap_content"
+    android:background="@color/dashboard_surface"
+    android:orientation="horizontal"
+    android:paddingVertical="14dp">
+
+    <TextView
+        android:id="@+id/tvGedung"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/dashboard_text_primary"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/tvKelas"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/dashboard_text_primary"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/tvJam"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/dashboard_text_secondary"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/tvPeminjam"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/dashboard_text_primary"
+        android:textSize="13sp"/>
+</LinearLayout>

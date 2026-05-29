@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_rounded"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_ruang"
+        android:icon="@drawable/ic_meeting_room"
+        android:title="Ruang" />
+
+    <item
+        android:id="@+id/nav_riwayat"
+        android:icon="@drawable/ic_history_rounded"
+        android:title="Aktivitas" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_person_rounded"
+        android:title="Profil" />
+
+</menu>

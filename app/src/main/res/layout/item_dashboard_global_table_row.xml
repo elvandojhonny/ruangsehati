@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/dashboard_global_table_width"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="4dp">
+
+        <TextView
+            android:id="@+id/tvNamaKelas"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.2"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/dashboard_text_primary"
+            android:textSize="12sp"
+            tools:text="Lab Multimedia A" />
+
+        <TextView
+            android:id="@+id/tvGedung"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.6"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/dashboard_text_secondary"
+            android:textSize="12sp"
+            tools:text="Gedung Teknik" />
+
+        <TextView
+            android:id="@+id/tvTanggal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.35"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/dashboard_text_secondary"
+            android:textSize="12sp"
+            tools:text="2026-05-06" />
+
+        <TextView
+            android:id="@+id/tvJam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.35"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/dashboard_text_secondary"
+            android:textSize="11sp"
+            tools:text="08:00–10:00" />
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.25"
+            android:gravity="center"
+            android:paddingHorizontal="6dp"
+            android:paddingVertical="4dp"
+            android:textColor="@color/dashboard_text_primary"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            tools:text="Dipinjam" />
+
+        <TextView
+            android:id="@+id/tvPeminjam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.85"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/dashboard_text_secondary"
+            android:textSize="12sp"
+            tools:text="Budi Santoso" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/dashboard_stroke" />
+</LinearLayout>

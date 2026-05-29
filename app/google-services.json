@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "556687360870",
+    "project_id": "ruangsehat-6249d",
+    "storage_bucket": "ruangsehat-6249d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556687360870:android:3e6cf07ed6bad5b7a03ea7",
+        "android_client_info": {
+          "package_name": "com.example.peminjamanruang"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-YteFMcAIu9koRtdZETv7MZSIrQZl0jM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

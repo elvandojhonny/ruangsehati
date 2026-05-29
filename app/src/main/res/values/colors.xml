@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Palet premium: navy, emas, permukaan bersih -->
+    <color name="primary_navy">#1D4E89</color>
+    <color name="primary_navy_dark">#163A66</color>
+    <color name="accent_gold">#C9A227</color>
+    <color name="accent_gold_light">#E8C547</color>
+    <color name="matte_black">#0F1012</color>
+    <color name="matte_dark_mid">#1A1D24</color>
+    <color name="surface_pure">#FFFFFF</color>
+    <color name="surface_soft">#F9F9F7</color>
+    <color name="divider_gold_soft">#33C9A227</color>
+
+    <!-- Dashboard: biru gelap + emas (#0D1B2A / #FFD700) -->
+    <color name="dashboard_bg">#0D1B2A</color>
+    <color name="dashboard_bg_deep">#081420</color>
+    <color name="dashboard_surface">#1B2838</color>
+    <color name="dashboard_surface_elevated">#243447</color>
+    <color name="dashboard_gold">#FFD700</color>
+    <color name="dashboard_gold_dim">#CCAC00</color>
+    <color name="dashboard_text_primary">#F8FAFC</color>
+    <color name="dashboard_text_secondary">#B8C5D6</color>
+    <color name="dashboard_nav_inactive">#7A8FA3</color>
+    <color name="dashboard_stroke">#40FFD700</color>
+    <color name="dashboard_bottom_bar">#0A1624</color>
+
+    <!-- Chip status tabel global (selaras tema navy + emas) -->
+    <color name="dashboard_status_fill_dipinjam">#14FFD700</color>
+    <color name="dashboard_status_stroke_dipinjam">#59FFD700</color>
+    <color name="dashboard_status_fill_digunakan">#29FFD700</color>
+    <color name="dashboard_status_stroke_digunakan">#80FFD700</color>
+    <color name="dashboard_status_fill_selesai">#22334155</color>
+    <color name="dashboard_status_stroke_selesai">#508895A3</color>
+    <color name="dashboard_status_fill_unknown">#1E243447</color>
+    <color name="dashboard_status_stroke_unknown">#448895A3</color>
+
+    <!-- Brand (alias ke palet baru) -->
+    <color name="brand_indigo">@color/primary_navy</color>
+    <color name="brand_indigo_dark">@color/primary_navy_dark</color>
+    <color name="brand_teal">@color/accent_gold</color>
+
+    <!-- App surfaces -->
+    <color name="app_bg_start">#FAFAF8</color>
+    <color name="app_bg_end">#F0EDE6</color>
+    <color name="surface">@color/surface_pure</color>
+    <color name="outline_soft">#E6E0D4</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#5C5C5C</color>
+    <color name="text_on_dark">#F5F5F5</color>
+    <color name="login_muted">#94A3B8</color>
+
+    <!-- System -->
+    <color name="danger">#EF4444</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Backwards-compat -->
+    <color name="primary">@color/primary_navy</color>
+    <color name="primary_dark">@color/primary_navy_dark</color>
+    <color name="secondary">@color/accent_gold</color>
+    <color name="bg">@color/app_bg_start</color>
+    <color name="card">@color/surface</color>
+    <color name="background">@color/app_bg_start</color>
+    <color name="textPrimary">@color/text_primary</color>
+    <color name="textSecondary">@color/text_secondary</color>
+    <color name="accent">@color/accent_gold</color>
+    <color name="primaryDark">@color/primary_navy_dark</color>
+    <color name="purple_500">@color/primary_navy</color>
+</resources>
