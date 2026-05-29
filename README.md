@@ -113,7 +113,7 @@ ruangsehati/
 
 Program Studi Informatika
 
-Universitas Muhammadiyah Kalimantan Timur (UMKT)
+AI BOT
 
 ---
 
