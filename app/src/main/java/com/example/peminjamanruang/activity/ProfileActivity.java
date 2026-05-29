@@ -165,7 +165,7 @@ public class ProfileActivity extends AppCompatActivity {
             if (!isEdit) {
 
                 Toast.makeText(this,
-                        "Fitur Edit akan segera hadir update berikutnya",
+                        "Fitur Edit akan hadir pada patch 2.1.0",
                         Toast.LENGTH_SHORT).show();
             }
         });
